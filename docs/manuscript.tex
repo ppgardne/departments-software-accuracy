@@ -362,7 +362,7 @@ broadly similar if first-author departments were used instead.
 
 \section*{Methods}
 
-\textbf{Pre-registration:} This study's desired sample size, included variables, hypotheses, and
+~~~~\textbf{Pre-registration:} This study's desired sample size, included variables, hypotheses, and
 planned analyses were pre-registered on the Open Science Framework
 %(https://doi.org/10.17605/OSF.IO/92PTZ)
 prior to any unpublished data being collected \cite{gardner2024}.
@@ -384,23 +384,24 @@ The author department names were mapped to the closest associated
 ``fields of study'' listed by the National Science Foundation
 \cite{fields2014}. We analysed fields at three different hierarchical
 levels, firstly the specific fields (e.g. ``genetics'', ``computer
-science'', ``bioinformatics'' etc). These are mapped to general fields
-within the ``fields of study'' classification (e.g. biological
-sciences, computer sciences etc). We have further mapped these to
-expertise type, the \textbf{development experts}, \textbf{domain
-  experts} and \textbf{interdisciplinary experts}. The development
-experts are from fields such as computer science, mathematics and
-engineering, they are expected to bring expertise in software
-engineering and mathematical modeling of biological problems. The
-domain experts are drawn from the biological and health sciences and
-are expected to have detailed knowledge of the subject area and be
-invested in producing high performance software for their own
-research. The interdisciplinary experts are drawn from
-interdisciplinary subjects such as bioinformatics and biomathematics,
-and from researchers who list both development and domain expertise in
-their addresses. We have treated some fields as essentially
-synonymous, for example departments of ``Computational Biology'' was
-mapped to ``Bioinformatics''.
+science'', ``bioinformatics'' etc). These are then mapped to more
+general fields within the ``fields of study'' classification
+(e.g. ``biological sciences'', ``computer sciences'' etc). We have
+further mapped these to three expertise types, the \textbf{development
+  experts}, \textbf{domain experts} and \textbf{interdisciplinary
+  experts}. The development experts are from fields such as computer
+science, mathematics and engineering, they are expected to bring
+development-pertinent expertise in software engineering and
+mathematical modeling of biological problems. The domain experts are
+drawn from the biological and health sciences and are expected to have
+detailed knowledge of the subject area and be invested in producing
+high-performing software for their research. The interdisciplinary
+experts are drawn from interdisciplinary subjects such as
+bioinformatics, biostatistics and biomathematics. Additionally the
+researchers who list both development and domain expertise in their
+addresses (e.g. ``Computer Science'' and ``Genetics''). We have treated some fields as essentially synonymous, for
+example departments of ``Computational Biology'' was mapped to
+``Bioinformatics'', and ``Genomics'' is mapped to ``Genetics''.
 
 We restricted all subsequent analyses to fields that contain at least 10
 software tools in our benchmark corpus. This mitigated against
@@ -420,8 +421,8 @@ another tool is recorded, as is the total number of pairwise
 comparisons that were made. These counts of wins and total comparisons
 are transferred to the corresponding specific, general and expertise
 areas. This is repeated 1,000 times, and allows a way to estimate the
-mean proportions of wins allocated to each field, and the 95\%
-confidence interval (Figure~\ref{fig:fig2}A). We have also computed a
+mean proportions of wins allocated to each field, and a 95\%
+confidence interval for this value (Figure~\ref{fig:fig2}A). We also compute a
 Z-score for each field using the below equation. This measures the
 number of standard deviations the mean number of wins is from the
 expected null value of 0.5 for randomly grouped tools
@@ -449,7 +450,8 @@ controlling the false discovery rate method
 
 \noindent\textbf{Data and analysis scripts availability}
 
-Add a GitHub Repo...
+The data, scripts, figures and manuscript draft files are availble at the GitHub repository:\\
+\href{https://github.com/ppgardne/departments-software-accuracy}{https://github.com/ppgardne/departments-software-accuracy}
 
 \noindent\textbf{Funding:} This research was supported by the MBIE data
 science platform ``Beyond Prediction: explanatory and transparent data

@@ -32,13 +32,11 @@ lines( c(0.5,0.5), c(0,num+1) )
 text(0,num,   "Expertise",      pos=4, col=colours[1])
 text(0,num-3, "General fields",  pos=4, col=colours[2])
 text(0,num-9, "Specific fields", pos=4, col=colours[3])
-#dev.off()
 z      <- -1*(0.5 - meanWins$meanWins)/meanWins$standardDeviation
 p.vals     <- pnorm(abs(z), lower.tail = FALSE)
 p.vals.adj <- p.adjust(p.vals, method = "fdr", n= length(p.vals))
 meanWins <- cbind( cbind(meanWins, z), p.vals.adj)
 write.csv(meanWins, file="fig2-data.tsv")
-#pdf(file=    "../docs/figures/z-scores.pdf", width = 12,  height = 15)
 par(mar = c(4,1,1,9) + .1, cex=2.0, las = 1) #c(bottom, left, top, right). default: c(5, 4, 4, 2) + 0.1
 plot( NA,NA, xlim=c(-1.3,2), ylim=c(1,num), xlab="(-1)*Z-score (null=0.5)", ylab="", main="", yaxt = "n" )
 for(i in 1:num){
