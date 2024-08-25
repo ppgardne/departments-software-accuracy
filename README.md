@@ -11,7 +11,7 @@
 ### Data sources and curation 
 
 - The following tables are derived from supplementary tables shared with the paper:
-Gardner PP et al. (2022)
+Gardner PP *et al.* (2022)
 Sustained software development, not number of citations or journal choice, is indicative of accurate bioinformatic software.
 Genome biology. [https://doi.org/10.1186/s13059-022-02625-x] and the github repository [https://github.com/Gardner-BinfLab/speed-vs-accuracy-meta-analysis]
 
@@ -51,13 +51,13 @@ R CMD BATCH ../bin/plotResults.R
 
  - [./LICENSE](./LICENSE) - license file 
 
-- "bin" directory, the software scripts used to process and visualise the results 
+- **"bin" directory**, the software scripts used to process and visualise the results 
 
  - [./bin/plotResults.R](./bin/plotResults.R) - R script for parsing data files and generating the figures presented in the manuscript. 
 
  - [./bin/tsv2data.pl](./bin/tsv2data.pl) - perl script for parsing data tables (TSV), and converting/joining them, and running bootstrap proceedures. Produces the required data files for R (plotResults.R). 
 
-- "data" directory
+- **"data" directory**
 
  - [./data/table1.tsv](./data/table1.tsv) - a table of benchmark publications, a list of tools for each, their ranks and the sources (figures/tables) for each.  
 
@@ -117,3 +117,21 @@ R CMD BATCH ../bin/plotResults.R
     10	z
     11	p.vals.adj
 ```
+
+- **"docs" directory**, the manuscript draft, bibliography and figures. 
+
+ - [./docs/manuscript.tex](./docs/manuscript.tex) - a LaTeX file containing the manuscript text.  
+
+ - [./docs/manuscript.pdf](./docs/manuscript.pdf) - the compiled manuscript PDF. 
+
+ - [./docs/references.bib](./docs/references.bib) - references in a format used by bibtex/LaTeX. 
+
+ - [./docs/figures/upset-plots.pdf](./docs/figures/upset-plots.pdf) - Figure 1. A combination of upset plots, with figure labels. 
+
+ - [./docs/figures/upsetPlotSpecificFiled.pdf](./docs/figures/upsetPlotSpecificFiled.pdf) -  Figure 1A.
+
+ - [./docs/figures/upsetPlotGeneralFiled.pdf](./docs/figures/upsetPlotGeneralFiled.pdf) - Figure 1B.
+
+ - [./docs/figures/forest-z-Plot.pdf](./docs/figures/forest-z-Plot.pdf) - Figure 2. Figure labels added.
+
+ - [./docs/figures/forestPlot.pdf](./docs/forestPlot.pdf) - Figure 2A&B. Unedited. 
