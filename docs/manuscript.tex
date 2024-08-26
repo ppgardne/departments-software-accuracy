@@ -42,27 +42,25 @@
 
 
 % The abstract could benefit from a clearer statement of the research question, methodology, and key findings. It currently mixes multiple ideas without a clear flow.
-\Abstract{
-  The development of accurate bioinformatic software tools is crucial
-  for the effective analysis of complex biological data. This study
-  examines the relationship between the academic department
+\Abstract{ The development of accurate bioinformatic software tools is
+  crucial for the effective analysis of complex biological data. This
+  study examines the relationship between the academic department
   affiliations of authors and the accuracy of the bioinformatic tools
   they develop. By analyzing a corpus of previously benchmarked
   bioinformatic software tools, we mapped bioinformatic tools to the
   academic fields of the corresponding authors and evaluated tool
-  accuracy by field. Our results suggest that "Medical Informatics,"
-  under the broader category of "Technologies," outperforms other
-  fields in software accuracy, with a mean proportion of wins in
-  accuracy rankings exceeding the null expectation. In contrast, tools
-  developed by authors affiliated with "Bioinformatics" and
-  "Engineering" fields tend to be less accurate. However, after
-  correcting for multiple testing, none of the results are
-  statistically significant ($p>0.05$). Our findings reveal no
-  association between academic field and bioinformatic
-  software accuracy, suggesting that the development of
-  interdisciplinary software applications can be effectively
-  undertaken by any department with sufficient resources and training.
-}
+  accuracy by field. Our results suggest that ``Medical Informatics''
+  outperforms all other fields in bioinformatic software accuracy,
+  with a mean proportion of wins in accuracy rankings exceeding the
+  null expectation. In contrast, tools developed by authors affiliated
+  with "Bioinformatics" and "Engineering" fields tend to be less
+  accurate. However, after correcting for multiple testing, none of
+  the results are statistically significant ($p>0.05$). Our findings
+  reveal no strong association between academic field and
+  bioinformatic software accuracy. These findings suggest that the
+  development of interdisciplinary software applications can be
+  effectively undertaken by any department with sufficient resources
+  and training.  }
 
 
 \begin{document}
@@ -105,23 +103,22 @@ departments specializing in bioinformatics began to emerge from
 biology, computer science, and engineering faculties, each bringing
 unique contributions to the field's development and expansion.
 
-The interdisciplinarity of bioinformatics enables the integration of
-methods and perspectives from various disciplines, fostering novel
-insights and solutions that might not be possible within a single
-field \cite{mazzocchi2019scientific}. This requires a deep
-understanding of biological sciences for interpreting
-data, and strong computational skills are required to develop
-algorithms and analyze the results at scale.
+Bioinformatics integrates methods from various disciplines, fostering
+novel insights that are unattainable within a single field
+\cite{mazzocchi2019scientific}. This requires a deep understanding of
+biological sciences for interpreting data, and strong computational
+skills are required to develop algorithms and analyze the results at
+scale.
 
-The \textbf{biological and health sciences,} in particular genetics,
-biochemistry and molecular biology provide essential domain knowledge,
-ensuring that the developed software tools are both biologically relevant
-and accurate.  Biologists are well-positioned to identify critical biological
-questions and ensure that computational tools are designed to
-effectively address these. However, biology departments may
-lack the advanced computational expertise required for developing sophisticated
-software. In our analysis, we have grouped the biological and health fields
-under the category of ``\textbf{domain experts}''.
+
+Experts in \textbf{biological and health sciences}, such as genetics
+and molecular biology, can ensure that software tools are biologically
+relevant and accurate by identifying critical questions and guiding
+computational tool development. However, biology departments may lack
+the advanced computational expertise required for developing
+sophisticated software. In our analysis, we have grouped the
+biological and health fields under the category of ``\textbf{domain
+  experts}''.
 
 The \textbf{mathematical, engineering and computational sciences},
 referred to here as the ``\textbf{development experts}'', contribute
@@ -147,14 +144,16 @@ of its developers. This blending of skills can mitigate potential
 disparities between departments, resulting in comparable outcomes
 regardless of the department of origin.
 
-As the field of bioinformatics evolves and reliance on research
-software tools grows with increasing data volumes, this study aims to
-determine whether the academic department of a corresponding author
-influences the accuracy of the bioinformatic software tools they
-develop. Specifically, we examine whether the presumed subject
-expertise, reflected in the author's departmental affiliation, has a
-measurable impact on tool accuracy, utilizing a benchmarked corpus of
-bioinformatic software tools to evaluate this relationship.
+
+The primary objective of this study is to investigate whether the
+academic department affiliation of a corresponding author is
+associated with the accuracy of the bioinformatic software tools they
+develop. We aim to determine if tools developed by authors from
+certain academic fields, such as ``Bioinformatics'', ``Computer
+Science'' or ``Genetics'' show higher or lower accuracy compared to
+those from other fields. To achieve this, we analyzed a benchmarked
+corpus of bioinformatic software tools and evaluated their accuracy
+based on the academic affiliations of their developers.
 
 
 \begin{figure*}[ht!]
@@ -178,19 +177,18 @@ for bioinformatic software tools, we mapped these tools to their
 respective academic fields and evaluated how software accuracy
 correlates with the developers' academic affiliations.
 
-We obtained previously benchmarked and collated accuracy rankings from
-a published supplement \cite{gardner2024}. Using these rankings, we
-mapped the addresses of corresponding authors for each published
-software tool to a standardized list of specific ``fields of study''
-\cite{fields2014}. These fields were then grouped into higher-level
-general fields and broader areas of expertise based on the address
-details of each corresponding author. Figure~\ref{fig:fig1} illustrates
-the number of tools representing each general and specific field. Most
+
+We used a published supplement \cite{gardner2024} to obtain previously
+benchmarked accuracy rankings and mapped corresponding authors'
+addresses to a standardized list of specific 'fields of study'
+\cite{fields2014}. These were further grouped into broader general
+fields and areas of expertise. Figure~\ref{fig:fig1} illustrates the
+number of tools representing each general and specific field ($N\ge 10$). Most
 bioinformatic software is developed by corresponding authors who list
 Genetics, Bioinformatics, Computer Science, or similar departments as
-their primary address (Figure~\ref{fig:fig1}A). Among the general fields,
-the Biological Sciences produce the most software tools, followed by
-the Computer Sciences (Figure~\ref{fig:fig1}B).
+their primary address (Figure~\ref{fig:fig1}A). Among the general
+fields, the Biological Sciences produce the most software tools,
+followed by the Computer Sciences (Figure~\ref{fig:fig1}B).
 
 \begin{figure*}[ht!]
 \begin{center}
@@ -263,15 +261,13 @@ testing.
 \section*{Conclusions and Limitations}
 
 We tested the assumption that the speciality of academic departments
-reflect the quality of the research software they produce. Our
-findings showed no significant association, after correcting for
-multiple-testing, between the type of academic expertise -- whether
-biological domain expert, software developer, or interdisciplinary
-scientist -- and the accuracy rankings of bioinformatic software
-tools. This leads us to conclude that assumptions linking academic
-department affiliation to the quality of bioinformatic software are
-likely incorrect. Similarly, both general and specific research fields
-showed no significant associations (Figure~\ref{fig:fig2}).
+reflect the quality of the research software they produce.  After
+correcting for multiple testing, we found no significant association
+between academic expertise type and the accuracy of bioinformatic
+tools, suggesting that academic department affiliation does not
+correlate with software quality. Similarly, both general and specific
+research fields showed no significant associations
+(Figure~\ref{fig:fig2}).
 
 Our earlier paper found that a long-term commitment to keeping
 software updated was the primary factor associated with accurate
@@ -319,16 +315,15 @@ have a substantial impact on the proportion of wins for intermediate
 rankings. Lastly, the cohort of benchmarks has not been updated to
 include more recent results.
 
-There is often a disconnect between a bioinformatic tool developer's
-training and their host department. For example, the author of this
-study completed an undergraduate degree in mathematics, a PhD in
-bioinformatics, postdoctoral fellowships in computer science and
-molecular biology departments, worked for several years at a genomics
-research institute, and is currently employed in a Biochemistry
-Department. The ``Biochemistry'' departmental label does not accurately
-reflect the author's training or recent publications. In fact, the
-author admits to not recalling key details of glycolysis, the citric
-acid cycle, or the structures of amino acids and proteins.
+There is often a disconnect between a developer’s training and their
+departmental affiliation, as evidenced by this author whose diverse
+academic and professional background spans mathematics,
+bioinformatics, computer science, molecular biology, and genomics, yet
+currently lists their affiliation with a Biochemistry Department. The
+``Biochemistry'' departmental label does not accurately reflect the
+author's training or recent publications. In fact, the author admits
+to not recalling key details of glycolysis, the citric acid cycle, or
+the structures of amino acids and proteins.
 
 The last, or corresponding, author is typically the principal
 investigator who leads a project. They may have limited direct
@@ -340,6 +335,14 @@ of the tool, and the department of the last author (though this was
 not tested in this study). Therefore, we expect that the results will
 be broadly similar if first-author departments were analyzed instead.
 
+In conclusion, this study does not find strong evidence that the
+academic department affiliation of authors is associated with the
+accuracy of bioinformatic software tools. This challenges the
+assumption that departmental expertise correlates with
+software quality. Future research could explore other factors, such
+as the nature of interdisciplinary collaborations or the training
+of developers, to better understand what factors contribute to
+the development of high-quality bioinformatic tools.
 
 %Open questions: what impact does training have on improving software quality?
 %We could end with echoing the call for more training and a continued 
