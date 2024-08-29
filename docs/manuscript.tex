@@ -7,6 +7,9 @@
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{amsmath}
+\usepackage[switch,pagewise]{lineno}
+\linenumbers
+
 \graphicspath{{figures/}}
 \setlength{\abovecaptionskip}{15pt plus 3pt minus 2pt}
 
@@ -33,7 +36,17 @@
 \affiliation{*\textbf{Corresponding author}: paul.gardner@otago.ac.nz} % Corresponding author
 
 
-\Keywords{} % Keywords - if you don't want any simply remove all the text between the curly brackets
+\Keywords{
+Bioinformatics,
+Software Tool Development, 
+Interdisciplinary Research, 
+Departmental Affiliation, 
+Software Accuracy, 
+Medical Informatics, 
+Academic Expertise, 
+Benchmarking,
+Computational Biology
+} % Keywords - if you don't want any simply remove all the text between the curly brackets
 \newcommand{\keywordname}{Keywords} % Defines the keywords heading name
 
 %----------------------------------------------------------------------------------------
@@ -70,6 +83,15 @@
 %\tableofcontents % Print the contents section
 
 \thispagestyle{empty} % Removes page numbering from the first page
+
+\section*{Key Points}
+
+\begin{itemize}
+\item The study investigates the relationship between academic department affiliations of authors and the accuracy of bioinformatic software tools they develop.
+\item Results indicate no statistically significant association between departmental affiliation and the accuracy of bioinformatic tools, challenging the assumption that departmental expertise predicts software quality.
+\item Tools from the "Medical Informatics" field showed a higher mean proportion of wins, while those from "Bioinformatics" and "Engineering" fields ranked lower, though these differences were not statistically significant after correcting for multiple-testing.
+\item The findings suggest that allocating sufficient resources for long term software development are more critical to accurate bioinformatic tools than departmental expertise.
+\end{itemize}
 
 
 \section*{Background}
@@ -426,6 +448,10 @@ controlling the false discovery rate method
 
 The data, scripts, figures and manuscript draft files are availble at the GitHub repository:\\
 \href{https://github.com/ppgardne/departments-software-accuracy}{https://github.com/ppgardne/departments-software-accuracy}
+
+%Generate a doi:
+%https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content
+%https://zenodo.org/account/settings/github/
 
 \noindent\textbf{Funding:} This research was supported by the MBIE data
 science platform ``Beyond Prediction: explanatory and transparent data
