@@ -27,8 +27,7 @@
 \JournalInfo{.} % Journal information ``Journal, Vol. XXI, No. 1, 1-5, 2015''
 \Archive{ } % Additional notes (e.g. copyright, DOI, review/research article)
 
-\PaperTitle{A Bioinformatician, Computer Scientist, and Geneticist lead bioinformatic tool development - which one is better?} % Article
-                                                                                                                               % title
+\PaperTitle{A Bioinformatician, Computer Scientist, and Geneticist lead bioinformatic tool development - which one is better?}
 
 \Authors{Paul P. Gardner\textsuperscript{1}*}
   
@@ -52,10 +51,7 @@ Computational Biology
 %----------------------------------------------------------------------------------------
 %       ABSTRACT
 %----------------------------------------------------------------------------------------
-
-
-% The abstract could benefit from a clearer statement of the research question, methodology, and key findings. It currently mixes multiple ideas without a clear flow.
-\Abstract{ The development of accurate bioinformatic software tools is
+\Abstract{The development of accurate bioinformatic software tools is
   crucial for the effective analysis of complex biological data. This
   study examines the relationship between the academic department
   affiliations of authors and the accuracy of the bioinformatic tools
@@ -67,14 +63,13 @@ Computational Biology
   with a mean proportion of wins in accuracy rankings exceeding the
   null expectation. In contrast, tools developed by authors affiliated
   with "Bioinformatics" and "Engineering" fields tend to be less
-  accurate. However, after correcting for multiple testing, none of
-  the results are statistically significant ($p>0.05$). Our findings
+  accurate. However, after correcting for multiple testing, no
+  result is statistically significant ($p>0.05$). Our findings
   reveal no strong association between academic field and
   bioinformatic software accuracy. These findings suggest that the
   development of interdisciplinary software applications can be
   effectively undertaken by any department with sufficient resources
-  and training.  }
-
+  and training.}
 
 \begin{document}
 
@@ -84,104 +79,64 @@ Computational Biology
 
 \thispagestyle{empty} % Removes page numbering from the first page
 
-\section*{Key Points}
-
-\begin{itemize}
-\item The study investigates the relationship between academic department affiliations of authors and the accuracy of bioinformatic software tools they develop.
-\item Results indicate no statistically significant association between departmental affiliation and the accuracy of bioinformatic tools, challenging the assumption that departmental expertise predicts software quality.
-\item Tools from the "Medical Informatics" field showed a higher mean proportion of wins, while those from "Bioinformatics" and "Engineering" fields ranked lower, though these differences were not statistically significant after correcting for multiple-testing.
-\item The findings suggest that allocating sufficient resources for long term software development are more critical to accurate bioinformatic tools than departmental expertise.
-\end{itemize}
-
-
 \section*{Background}
 
-% The introduction lacks a strong hook or clear statement of the problem being addressed. It would be helpful to more explicitly state the importance of understanding the relationship between academic department affiliation and bioinformatics tool accuracy.
-
-Much is made of departmental divisions within academia; These can
-denote research and teaching expertise \cite{ben2016s}, influence
-hiring decisions, access to funding, publishing and the training of
-students recruited for research projects
-\cite{bourke1998institutions}. However, interdisciplinary subjects
-such as bioinformatics break down the traditional barriers between
-departments and subject areas
+Departmental divisions in academia signify research expertise,
+influence hiring decisions, and impact access to funding, publishing
+opportunities, and student training
+\cite{bourke1998institutions,ben2016s}. However, interdisciplinary
+fields such as bioinformatics blur traditional boundaries by
+integrating data and methods from biology, computer science, and
+mathematics to address complex research challenges
 \cite{Ouzounis:2003,Eddy:2005,hogeweg2011roots}.
 
-Bioinformatics, is an interdisciplinary field that fuses biology,
-computer science, and mathematics, and now plays a pivotal role in
-modern biological research \cite{Ouzounis:2003}. The development of
-bioinformatic tools and software is critical for interpreting complex
-biological questions, such as what evolutionary, structural and
-functional analyses of genomic, transcriptomic, and proteomic data can
-tell us. The field of ``bioinformatics'' can include many overlapping
-research fields that include computational biology, biomathematics,
-biostatistics, medical informatics and other similar areas.
+Bioinformatics has become essential to modern biological research,
+facilitating evolutionary, structural, and functional analyses of
+genomic, transcriptomic, and proteomic data
+\cite{clement2018data,gauthier2019brief}. The development of accurate and
+scalable bioinformatic tools is critical for interpreting such large
+datasets. Which requires both biological insight and advanced
+computational skills to build algorithms. The advent of
+high-throughput technologies has driven the growth of bioinformatics,
+leading to the establishment of specialized groups within biology,
+computer science, and engineering faculties, each contributing to the
+field’s expansion
+\cite{hogeweg2011roots,gauthier2019brief}.
 
-Bioinformatics gained significant traction with the advent of
-high-throughput sequencing technologies, which created a need for
-robust computational tools to manage the large volumes of data
-generated \cite{Ouzounis:2003,hogeweg2011roots}. In response,
-departments specializing in bioinformatics began to emerge from
-biology, computer science, and engineering faculties, each bringing
-unique contributions to the field's development and expansion.
+The contributions of ``domain experts'' to bioinformatics from the
+biological and health sciences, such as genetics and molecular biology
+are essential as they ensure software tools are relevant and accurate.
+However, domain experts may lack the advanced computational expertise
+needed to develop sophisticated software. In contrast, fields like
+mathematics, engineering, and computational sciences — referred to
+here as ``development experts'' — offer expertise in algorithm
+development, mathematical modeling, statistics, and software
+engineering, essential for creating efficient and scalable
+bioinformatic tools.
 
-Bioinformatics integrates methods from various disciplines, fostering
-novel insights that are unattainable within a single field
-\cite{mazzocchi2019scientific}. This requires a deep understanding of
-biological sciences for interpreting data, and strong computational
-skills are required to develop algorithms and analyze the results at
-scale.
+It is possible that departmental differences may influence
+bioinformatic tool development by reflecting the distinct expertise,
+resources, and perspectives offered by different academic
+fields. Development experts excel in computational efficiency, while
+domain experts provide essential biological insights. Therefore, the
+success of a tool may depend on the integration of diverse
+skills rather than on the specific departmental affiliation of its
+developers. 
 
-
-Experts in \textbf{biological and health sciences}, such as genetics
-and molecular biology, can ensure that software tools are biologically
-relevant and accurate by identifying critical questions and guiding
-computational tool development. However, biology departments may lack
-the advanced computational expertise required for developing
-sophisticated software. In our analysis, we have grouped the
-biological and health fields under the category of ``\textbf{domain
-  experts}''.
-
-The \textbf{mathematical, engineering and computational sciences},
-referred to here as the ``\textbf{development experts}'', contribute
-significantly by bringing expertise in algorithm development,
-mathematical modelling, statistics, and software engineering
-principles. These skills are essential for creating efficient,
-scalable, and robust bioinformatic tools.  However, the challenge for
-development experts is gaining a deep understanding of biological domains,
-which is necessary to ensure software tools are both relevant
-and accurate.
-
-Departmental differences can influence the development of
-bioinformatic software tools because they reflect the varying
-expertise, resources, and perspectives that different academic fields
-offer. Development experts may excel in areas such as algorithm
-efficiency, mathematical modeling, data handling, and software
-engineering, while domain experts may bring a deep understanding of
-biological questions, data interpretation, limitations, and
-potentially better curation of control datasets. Consequently, the
-success of a tool may rely more on the integration of diverse
-forms of expertise rather than the specific departmental affiliation
-of its developers. This blending of skills can mitigate potential
-disparities between departments, resulting in comparable outcomes
-regardless of the department of origin.
+The primary objective of this study is to examine whether the academic
+department affiliation of a corresponding author has a discernible
+outcome on the accuracy (i.e. correctness of predictions) of the
+bioinformatic tools they develop. Specifically, we aim to determine
+whether tools created by authors from domain-expert,
+development-expert of interdisciplinary fields differ in accuracy. To
+address this, we analyzed a benchmarked corpus of bioinformatic
+software tools and evaluated their accuracy based on the developers'
+academic affiliations.
 
 
-The primary objective of this study is to investigate whether the
-academic department affiliation of a corresponding author is
-associated with the accuracy of the bioinformatic software tools they
-develop. We aim to determine if tools developed by authors from
-certain academic fields, such as ``Bioinformatics'', ``Computer
-Science'' or ``Genetics'' show higher or lower accuracy compared to
-those from other fields. To achieve this, we analyzed a benchmarked
-corpus of bioinformatic software tools and evaluated their accuracy
-based on the academic affiliations of their developers.
-
-
-\begin{figure*}[ht!]
-\begin{center}
-  \includegraphics[width=0.6\textwidth]{upset-plots.pdf}
-\end{center}
+\begin{figure*}[t!]
+  \centering
+  \includegraphics[width=0.75\textwidth]{upset-plots.pdf}
   \caption{ The number and intersection of general (\textbf{A}) or
   specific (\textbf{B}) fields that have contributed to bioinformatic
   software tools included in recent benchmark studies.  The number and
@@ -190,31 +145,28 @@ based on the academic affiliations of their developers.
 \end{figure*}
 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Results}
 
-We are interested in exploring the relationship between the accuracy
-of bioinformatic software tools and the academic fields of study of
-their developers. Using a published corpus of accuracy rankings
-for bioinformatic software tools, we mapped these tools to their
-respective academic fields and evaluated how software accuracy
-correlates with the developers' academic affiliations.
+We explored the relationship between the accuracy of bioinformatic
+software tools and the academic fields of their developers. Using a
+previously published corpus of benchmarked accuracy rankings
+\cite{gardner2024}, we mapped corresponding authors' addresses to
+standardized ``fields of study'' \cite{fields2014} and grouped them into
+broader categories.
 
+%
+Figure~\ref{fig:fig1} shows the number of tools for the general and
+specific fields ($N\ge 10$). Most bioinformatic tools were developed
+by authors affiliated with Genetics, Bioinformatics, Computer Science,
+or similar departments. Among the general fields, Biological Sciences
+produced the most software tools, followed by Computer Sciences.
 
-We used a published supplement \cite{gardner2024} to obtain previously
-benchmarked accuracy rankings and mapped corresponding authors'
-addresses to a standardized list of specific 'fields of study'
-\cite{fields2014}. These were further grouped into broader general
-fields and areas of expertise. Figure~\ref{fig:fig1} illustrates the
-number of tools representing each general and specific field ($N\ge 10$). Most
-bioinformatic software is developed by corresponding authors who list
-Genetics, Bioinformatics, Computer Science, or similar departments as
-their primary address (Figure~\ref{fig:fig1}A). Among the general
-fields, the Biological Sciences produce the most software tools,
-followed by the Computer Sciences (Figure~\ref{fig:fig1}B).
 
 \begin{figure*}[ht!]
 \begin{center}
-  \includegraphics[width=0.8\textwidth]{forest-z-Plot.pdf}
+  \includegraphics[width=0.65\textwidth]{forest-z-Plot.pdf}
 \end{center}
 \caption{(\textbf{A}) A forest plot, illustrating the mean and 95\%
   confidence intervals of the proportion of times software tools
@@ -230,51 +182,42 @@ followed by the Computer Sciences (Figure~\ref{fig:fig1}B).
 \label{fig:fig2}
 \end{figure*}
 
-The mean proportion of wins (e.g., if tool `A' outranks tool `B', this
-counts as a win for tool `A') and the corresponding Z-scores provide a
-method to rank fields of study based on the relative accuracy of
-bioinformatic software benchmarked between 2005 and 2020, compared to
-the expected number of wins for random groupings (i.e., $wins =
-0.5$). A higher proportion of wins and a greater $(-1) * Z-score$
-indicate that tools from a particular department more frequently
-outperformed competing tools in independent benchmarks.
 
-The specific and general field that outperformed all others is
-``Medical Informatics'', a branch of ``Technologies'', with 16
-software tools categorized under both fields. Among these, five are
-different parameter options for the MAFFT multiple sequence alignment
-tool \cite{katoh2008recent}.  These Medical Informatic tools have a mean proportion of wins of
-0.70 and 95\% confidence interval of $0.53-0.85$, which excludes the
-null value of 0.5. The corresponding Z-score is $-1.88$, and after correcting for multiple testing, the P-value is $0.29$.
+We ranked fields based on the mean proportion of ``wins'' (i.e., for field '1' when its tool
+'A' outperforms tool 'B' in benchmark 'X') and calculated Z-scores
+to compare them against random expectations (i.e., $wins = 0.5$). A
+higher proportion of wins and lower $(-1) * Z-score$ indicate better
+overall accuracy.
 
-At the other end of the spectrum is ``Bioinformatics''. Ironically,
-authors that list ``Bioinformatics'' in their address field tend to
-produce less accurate software for bioinformatic applications. The
-mean proportion of wins was 0.43, with a 95\% confidence interval of
-$0.33-0.53$. The corresponding Z-score is $1.20$ and after correcting
-for multiple testing the P-value is $0.46$.
+``Medical Informatics'', a branch of ``Technologies'', outperformed
+other fields, with a mean win proportion of 0.70 (95\% CI:
+$0.53-0.85$) and a Z-score of $-1.88$. However, P = 0.29 after
+multiple testing correction). Notably, this category includes five
+different parameter options for the MAFFT sequence alignment tool
+\cite{katoh2008recent}, and a further four separate corresponding
+authors that list either the Department or Center of Biomedical
+Informatics, Harvard Medical School as their affiliation
+\cite{kim2010rsw,yang2013diverse,kharchenko2014bayesian,ruan2020fast}. This
+and some other redundancies leaves just eight departments
+representing the medical informatics field here.
 
 
-The general field of ``Engineering'' also ranked low, with a mean
-proportion of wins of just 0.34 and a 95\% confidence interval of
-$0.16-0.60$. The corresponding Z-score is $1.25$. This general field
-comprises several smaller specific fields, such as "Bioengineering and
-Biomedical Engineering," "Computer Engineering," and "Electrical and
-Electronics Engineering." However, since none of these specific fields
-individually had more than ten corresponding software tools, they were
-excluded from the more detailed analysis.
+In contrast, ``Bioinformatics'' has the lowest rank, with a mean win
+proportion of 0.43 (95\% CI: $0.33-0.53$) and a Z-score of $1.20$ (P =
+0.46 after correction). Similarly, ``Engineering'' ranked low, with a
+win proportion of 0.34 (95\% CI: $0.16-0.60$) and a Z-score of $1.25$.
 
-The remaining general and specific academic fields have confidence
-intervals that include the null value of 0.5, and relatively modest
-Z-scores that range from -0.49 to 0.96. The P-values for each were
-greater than $0.05$. 
+Other fields showed confidence intervals that included the null value
+of 0.5, with modest Z-scores ranging from -0.49 to 0.96, and P-values
+greater than 0.05.
 
-For the highest level field classifications of software development
-expert, biological domain expert or interdisciplinary expert each had
-similar mean proportions of wins (0.51, 0.49 and 0.46
-respectively). The interdisciplinary experts had a lower Z-score of
-$-0.87$, which corresponds to $P=0.46$ after correcting for multiple
-testing.
+When grouped by expertise type—software development experts,
+biological domain experts, or interdisciplinary experts—all categories
+had similar win proportions (0.51, 0.49, and 0.46,
+respectively). Interdisciplinary experts had the lowest Z-score of
+$-0.87$ (P = 0.46 after correction).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %followed by ``Molecular Medicine''
 %We have deliberately not computed P-values or other measures of
@@ -282,113 +225,100 @@ testing.
 
 \section*{Conclusions and Limitations}
 
-We tested the assumption that the speciality of academic departments
-reflect the quality of the research software they produce.  After
-correcting for multiple testing, we found no significant association
-between academic expertise type and the accuracy of bioinformatic
-tools, suggesting that academic department affiliation does not
-correlate with software quality. Similarly, both general and specific
-research fields showed no significant associations
-(Figure~\ref{fig:fig2}).
+We tested the assumption that academic department specialization
+reflects the quality of research software. After correcting for
+multiple testing, we found no significant association between academic
+expertise and the accuracy of bioinformatic tools. This suggests that
+department affiliation does not correlate with software quality, and
+neither general nor specific research fields showed any significant
+links to tool accuracy.
 
-Our earlier paper found that a long-term commitment to keeping
-software updated was the primary factor associated with accurate
-software tools. This current study complements that finding by demonstrating 
-that citation metrics (e.g. journal impact factors and
-author H-index), tool age, tool speed, and now academic fields of
-inquiry are \textbf{not} associated with software accuracy.
+A previous study indicated that maintaining software was the key
+factor in producing accurate tools, while citation metrics, tool age,
+speed are not associated with software accuracy \cite{Gardner:2022}.
+Our findings complement this by showing that academic field is also not
+associated with software accuracy.
 
-We focus on software tool accuracy here \cite{weber2019essential}. While speed, usability and
-some features of software tools are important, in our opinion the
-primary concern for bioinformatic software tools is the accuracy of
-the results they produce. As poor predictions may have long-term consequences for
-our general research field. 
+While other aspects of bioinformatic tools, such as speed and
+usability, are important, we emphasize that accuracy should remain the
+top priority, as poor predictions can have long-term impacts on
+research \cite{weber2019essential}.
 
-Medical Informatics, under the broader category of "Technologies," is
-identified as the top-performing group in developing accurate
-bioinformatic software tools. The tools include a number of methods
-for structural variation detection, single-cell profiling, long-read
-assembly, multiple sequence alignment and are derived from several
-different research teams. 
+Medical Informatics was the top-performing field in developing
+accurate tools, these include methods for structural variation
+detection, single-cell profiling, long-read assembly, multiple
+sequence alignment and are derived from a limited number of research
+teams. However, tools from Bioinformatics and Engineering
+ranked lower, though these differences were not statistically
+significant.
 
-Bioinformatics and Engineering ranked lower in terms of software
-accuracy. Tools developed by authors who affiliated with
-"Bioinformatics" typically had slightly lower accuracy than that of
-other fields. However, this was not a statistically significant
-finding. In addition (further bad news for this author),
-``Biochemistry'' was similarly ranked, again this was not a
-statistically significant finding.
+Therefore, an individual’s department is not a reliable indicator of the
+quality of the software they produce. Academic affiliation should not
+be used as a proxy for assessing the potential success of software
+development projects.
 
-This leads us to conclude that an individual's host department are not
-reflective of the quality of software that they are capable of
-producing ($p>0.05$ in all instances). As a consequence, the academic
-department should not be used as a proxy for judging the potential of
-software development projects.
+\textbf{Limitations:} Some benchmarks include multiple tool options,
+potentially introducing non-independent effects. The accuracy metrics
+are diverse, with some limitations (e.g., issues with "accuracy" in
+class-imbalanced datasets \cite{luque2019impact} and criticisms of the
+N50 metric for sequence assembly \cite{xie2021pdr}). Additionally,
+smaller benchmarks and smaller fields may exaggerate rank shifts. We
+mitigate this in part by only considering departments with 10 or more
+corresponding tools. 
 
-\textbf{Limitations:} Some benchmarks rank multiple tool options,
-which can introduce modest to large effects as these options may not
-be independent. Additionally, the accuracy metrics used are diverse,
-and some may be flawed under certain conditions; for example,
-``accuracy'' can be misleading with large class-imbalances
-\cite{luque2019impact}, and the N50 metric for sequence assembly has
-been criticized by some commentators \cite{xie2021pdr}. Moreover, some
-benchmarks are relatively small, so even small changes in rank can
-have a substantial impact on the proportion of wins for intermediate
-rankings. Lastly, the cohort of benchmarks has not been updated to
-include more recent results.
+%Also, our data set has not been updated with more recent
+%tools.
 
-There is often a disconnect between a developer’s training and their
-departmental affiliation, as evidenced by this author whose diverse
-academic and professional background spans mathematics,
-bioinformatics, computer science, molecular biology, and genomics, yet
-currently lists their affiliation with a Biochemistry Department. The
-``Biochemistry'' departmental label does not accurately reflect the
-author's training or recent publications. In fact, the author admits
-to not recalling key details of glycolysis, the citric acid cycle, or
-the structures of amino acids and proteins.
+There may be little connection between a researcher’s training and
+their listed department, as illustrated by this author’s background
+which began in mathematics, before taking positions in departments of
+computer science, molecular biology and bioinformatics, and now is
+affiliated with a Biochemistry Department.
 
-The last, or corresponding, author is typically the principal
-investigator who leads a project. They may have limited direct
-involvement in the development of any software tool, while
-their role is mainly to provide resources and overall direction for
-the project. However, there is likely to be a significant overlap between the
-department of the first author, who is usually the primary developer
-of the tool, and the department of the last author (though this was
-not tested in this study). Therefore, we expect that the results will
-be broadly similar if first-author departments were analyzed instead.
+The corresponding (last) author, is typically the principal investigator and
+may not be the primary tool developer, but rather oversees the
+project. There is likely to be a strong overlap between the departments of the first
+and last authors, but this was not explored in the current study.
 
-In conclusion, this study does not find strong evidence that the
-academic department affiliation of authors is associated with the
-accuracy of bioinformatic software tools. This challenges the
-assumption that departmental expertise correlates with
-software quality. Future research could explore other factors, such
-as the nature of interdisciplinary collaborations or the training
-of developers, to better understand what factors contribute to
-the development of high-quality bioinformatic tools.
+\textbf{Final words:} This study does not find strong evidence linking
+academic department affiliation with bioinformatic software
+accuracy ($p>0.05$ in all instances). Future research should investigate other factors, such as
+interdisciplinary collaborations and developer training, to understand
+what drives high-quality tool development. Addressing potential biases
+against interdisciplinary work \cite{bromham2016interdisciplinary} and ensuring long-term support for
+essential software infrastructure will also be critical for advancing the
+field \cite{siepel2019challenges}.
 
-%Open questions: what impact does training have on improving software quality?
-%We could end with echoing the call for more training and a continued 
-%e.g. \cite{johanson2018software,siepel2019challenges}
 
-\section*{Methods}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-~~~~\textbf{Pre-registration:} This study's desired sample size, included variables, hypotheses, and
-planned analyses were pre-registered on the Open Science Framework
+\subsection*{Methods}
+
+The data, scripts, figures and manuscript draft files are availble at the GitHub repository:\\
+\href{https://github.com/ppgardne/departments-software-accuracy}{https://github.com/ppgardne/departments-software-accuracy}
+
+
+~~~~\textbf{Pre-registration:} The methods for this study followed the pre-registered proposal outlined
+prior to any unpublished data collection \cite{gardner2024}.
 %(https://doi.org/10.17605/OSF.IO/92PTZ)
-prior to any unpublished data being collected \cite{gardner2024}.
 
 \textbf{Benchmarking data:} software ranks from previously gathered
 benchmarks are publically available \cite{Gardner:2022}, these include data from
 68 publications that rank the accuracy of different sets of 498
 distinct software tools.
 
-%The methodology section should provide more detail about how the software tools were selected and mapped to academic fields. It’s important to describe how biases or inconsistencies in mapping were addressed.
+%The methodology section should provide more detail about how the
+%software tools were selected and mapped to academic fields. It’s
+%important to describe how biases or inconsistencies in mapping were
+%addressed.
+
 \textbf{Mapping tools to academic field:} For each software tool, the
 corresponding publication(s) were identified, and the addresses of the
 primary corresponding author were manually extracted when
 available. If an author listed multiple addresses, only the first two
 were used. In cases with multiple corresponding authors, the last
 corresponding author was chosen.
+
 
 The department names of the authors were mapped to the closest
 associated ``fields of study'' as defined by the National Science
@@ -421,12 +351,25 @@ benchmarks using a diverse number of metrics that include sensitivity,
 specificity, PPV, FDR, error rates, AUROC, MCC and others
 \cite{weber2019essential}. The number of tools ranked in any benchmark
 ranged from 3 to 50. In order to obtain a representative measure of
-accuracy for a field that accounts for the diversity in accuracy measures and
-number of ranked tools, we employed a rank-based and
-bootstrapping strategy.
-We randomly sampled, with replacement, sets of 200 tools from the total of 498 tools. For each tool, a corresponding benchmark was selected at random, and the number of times the tool ``won'' against another tool was recorded, along with the total number of pairwise comparisons made. These counts of wins and total comparisons were then assigned to the corresponding specific, general, and expertise areas. This process was repeated 1,000 times to estimate the mean proportions of wins for each field, along with a 95\% confidence interval for these values (Figure~\ref{fig:fig2}A).
-Additionally, we calculated a Z-score for each field to determine the number of standard deviations the mean number of wins deviates from the expected null value of 0.5 for randomly grouped tools
-(Figure~\ref{fig:fig2}B).
+accuracy for a field that accounts for the diversity in accuracy
+measures and number of ranked tools, we employed a rank-based and
+bootstrapping strategy.  We randomly sampled, with replacement, sets
+of 200 tools from the total of 498 tools. For each tool, a
+corresponding benchmark was selected at random, and the number of
+times the tool ``won'' against another tool was recorded, along with
+the total number of pairwise comparisons made. These counts of wins
+and total comparisons were then assigned to the corresponding
+specific and general departments, and expertise areas.
+In other words, a tool ranked second in a benchmark of 11 tools will
+contribute 9 wins and 10 comparisons to the totals for its
+corresponding fields.
+
+This process was repeated
+1,000 times to estimate the mean proportions of wins for each field,
+along with a 95\% confidence interval for these values (Figure~2A).
+Additionally, we calculated a Z-score for each field to determine the
+number of standard deviations the mean number of wins deviates from
+the expected null value of 0.5 for randomly grouped tools (Figure~2B).
 
 $Z-score=\frac{x-\mu}{\sigma}$
 
@@ -444,30 +387,57 @@ controlling the false discovery rate method
 \cite{benjamini1995controlling}.
 
 
-\noindent\textbf{Data and analysis scripts availability}
 
-The data, scripts, figures and manuscript draft files are availble at the GitHub repository:\\
-\href{https://github.com/ppgardne/departments-software-accuracy}{https://github.com/ppgardne/departments-software-accuracy}
+%% In brief, software ranks from bioinformatic software benchmarks were
+%% gathgered \cite{Gardner:2022}, these cover 68 publications ranking the
+%% accuracy 498 distinct software tools in total. Software tools were
+%% mapped to departmental field using the address(es) of corresponding
+%% authors, these were further mapped to the closest associated ``fields
+%% of study'' defined by the National Science Foundation
+%% \cite{fields2014}. We analysed fields at three hierarchical levels:
+%% \textbf{1.} specific fields (e.g. ``genetics'', ``computer science'',
+%% ``bioinformatics''), \textbf{2.} general fields (e.g. ``biological
+%% sciences'', ``computer sciences''), \textbf{3.}  expertise area
+%% development experts, domain experts or interdisciplinary experts.
 
-%Generate a doi:
-%https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content
-%https://zenodo.org/account/settings/github/
+%% We then employed a rank-based bootstrapping strategy.  Sets of 200
+%% tools are randomly sampled, with replacement, a corresponding
+%% benchmark was selected at random for each tool, and the number of
+%% times the tool ``won'' against another tool was recorded, along with
+%% the total number of pairwise comparisons made. These counts of wins
+%% and total comparisons were then assigned to the corresponding
+%% specific, general, and expertise areas. This was repeated 1,000 times
+%% to estimate the mean proportions of field wins and a 95\% confidence
+%% interval (Figure~\ref{fig:fig2}A). Corresponding
+%% Z-scores indicate the number of standard deviations
+%% from the expected null of 0.5 each field lies (Figure~\ref{fig:fig2}B).
 
-\noindent\textbf{Funding:} This research was supported by the MBIE data
+%% $Z-score=\frac{0.5-\mu}{\sigma}$
+
+%% Where $\mu$ is the mean, $\sigma$ is the standard deviation, $x$ is the raw
+%% value. P-values are computed from the absolute value of the Z-scores,
+%% $P[X > x]$. P-values are corrected for multiple testing by
+%% controlling the false discovery rate method
+%% \cite{benjamini1995controlling}.  
+
+
+\subsection*{Acknowledgements}
+
+  This research was supported by the MBIE data
 science platform ``Beyond Prediction: explanatory and transparent data
 science'', Genomics Aotearoa, and Marsden
 Grants 19-UOO-040 and 20-UOA-282.
 
-\noindent\textbf{Authors' contributions:} this work was conceived by 
-PPG, designed by PPG, the analysis was carried out by PPG, interpretation of the results was by PPG,
-the manuscript was drafted by  PPG.
-All authors revised and edited the final manuscript. All authors approve the submitted version. 
+Associate Professor Anthony Gitter (Department of Biostatistics and
+Medical Informatics, University of Wisconsin-Madison) for pointing out
+the over-representation of Harvard Medical School affiliations in the
+Medical Informatics catagory.
 
-%----------------------------------------------------------------------------------------
-%       REFERENCE LIST
-%----------------------------------------------------------------------------------------
+
+% Bibliography
 \bibliographystyle{unsrt}
 \bibliography{references.bib}
+%pdflatex manuscript.tex && bibtex  ./manuscript  && pdflatex manuscript.tex && pdflatex manuscript.tex
 
 
 \end{document}
