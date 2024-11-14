@@ -24,6 +24,11 @@
 \definecolor{color2}{RGB}{200,200,200} % Color of the boxes behind the abstract and headings
 \definecolor{color3}{RGB}{5,5,5} % Color of the boxes behind the abstract and headings
 
+
+%\definecolor{rv}{RGB}{0,0,200} %colour highlighting revisions
+\definecolor{rv}{RGB}{0,0,0} %colour masking revisions
+
+
 \JournalInfo{.} % Journal information ``Journal, Vol. XXI, No. 1, 1-5, 2015''
 \Archive{ } % Additional notes (e.g. copyright, DOI, review/research article)
 
@@ -63,8 +68,8 @@ Computational Biology
   with a mean proportion of wins in accuracy rankings exceeding the
   null expectation. In contrast, tools developed by authors affiliated
   with "Bioinformatics" and "Engineering" fields tend to be less
-  accurate. However, after correcting for multiple testing, no
-  result is statistically significant ($p>0.05$). Our findings
+  accurate. However, after correcting for multiple testing, no 
+ result is statistically significant ($p>0.05$). Our findings
   reveal no strong association between academic field and
   bioinformatic software accuracy. These findings suggest that the
   development of interdisciplinary software applications can be
@@ -123,24 +128,46 @@ success of a tool may depend on the integration of diverse
 skills rather than on the specific departmental affiliation of its
 developers. 
 
+\textcolor{rv}{The accuracy of bioinformatic software tools are of
+  critical importance to the field \cite{weber2019essential}. Yet
+  several factors can influence accuracy assessments. Previous work
+  has shown that author conflicts can bias tool accuracy assessments
+  upwards \cite{buchka2021optimistic}. Conversely, commonly assumed
+  features of accurate software such as author reputation
+  (e.g. H-index), tool citation rates, journal impact, runtime, and
+  age of tools had no significant association with software accuracy
+  \cite{Gardner:2022}.  Instead, features illustrating sustained
+  development of tools, such as the number of releases, and activity
+  on a popular distributed version control website was significantly
+  associated with accuracy \cite{Gardner:2022}.}
+
 The primary objective of this study is to examine whether the academic
 department affiliation of a corresponding author has a discernible
 outcome on the accuracy (i.e. correctness of predictions) of the
 bioinformatic tools they develop. Specifically, we aim to determine
 whether tools created by authors from domain-expert,
-development-expert of interdisciplinary fields differ in accuracy. To
-address this, we analyzed a benchmarked corpus of bioinformatic
-software tools and evaluated their accuracy based on the developers'
-academic affiliations.
+development-expert of interdisciplinary fields differ in accuracy.
+\textcolor{rv}{This question was motivated by the possibility
+  that certain grant reviewers and other research assessors may base
+  their perception of expertise on departmental affiliation rather
+  than more pertinent information such as research experience.} To
+address this challenge we have analyzed a published corpus of
+benchmarked bioinformatic tools and evaluated relative accuracy ranks
+based on the developers' academic affiliations.
 
 
 \begin{figure*}[t!]
   \centering
-  \includegraphics[width=0.75\textwidth]{upset-plots.pdf}
-  \caption{ The number and intersection of general (\textbf{A}) or
-  specific (\textbf{B}) fields that have contributed to bioinformatic
-  software tools included in recent benchmark studies.  The number and
-  intersection of specific fields.  }
+  \includegraphics[width=0.75\textwidth]{figure1.pdf}
+  \caption{ \textcolor{rv}{ The figure displays the number and
+      intersection of bioinformatic tools classified by general fields (Panel \textbf{A})
+      and specific fields (Panel \textbf{B}), as listed by the corresponding
+      authors who published software included in benchmark
+      studies. Panel \textbf{C} presents the classification of general and
+      specific fields of study used by the ``National Science Foundation''
+      relevant to this study. On the right, it shows the additional
+      expertise categories that we introduced for this analysis.
+ }  }
 \label{fig:fig1}
 \end{figure*}
 
@@ -153,20 +180,31 @@ We explored the relationship between the accuracy of bioinformatic
 software tools and the academic fields of their developers. Using a
 previously published corpus of benchmarked accuracy rankings
 \cite{gardner2024}, we mapped corresponding authors' addresses to
-standardized ``fields of study'' \cite{fields2014} and grouped them into
-broader categories.
+standardized ``fields of study'' \cite{fields2014} and grouped them
+into broader categories. Fields of study is a hierarchical
+classification that includes specific fields (e.g. ``Genetics'' or
+``Mathematics'') or general fields (e.g. ``Biological Sciences'' or
+``Mathematics and Statistics''). We further classified these into
+expertise areas of ``Development'' (e.g. Computer Science), ``Domain''
+(e.g. Biological Sciences) and ``Interdisciplinary''
+(e.g. Bioinformatics or listing both a Biological and Computational
+Sciences affiliation).
 
 %
-Figure~\ref{fig:fig1} shows the number of tools for the general and
-specific fields ($N\ge 10$). Most bioinformatic tools were developed
-by authors affiliated with Genetics, Bioinformatics, Computer Science,
-or similar departments. Among the general fields, Biological Sciences
-produced the most software tools, followed by Computer Sciences.
+\textcolor{rv}{Figure~\ref{fig:fig1} shows the number of tools (set/intersection sizes) for the general
+and specific fields (for sets sizes $\ge 10$), as well as the intersections between
+fields due to corresponding authors with multiple
+affiliations. E.g. 11 tools have been published by authors who list
+both a Genetics and Computer Science department as their
+affiliation.} Most bioinformatic tools were developed by authors
+affiliated with Genetics, Bioinformatics, Computer Science, or similar
+departments. Among the general fields, Biological Sciences produced
+the most software tools, followed by Computer Sciences.
 
 
 \begin{figure*}[ht!]
 \begin{center}
-  \includegraphics[width=0.65\textwidth]{forest-z-Plot.pdf}
+  \includegraphics[width=0.65\textwidth]{figure2.pdf}
 \end{center}
 \caption{(\textbf{A}) A forest plot, illustrating the mean and 95\%
   confidence intervals of the proportion of times software tools
@@ -304,8 +342,17 @@ prior to any unpublished data collection \cite{gardner2024}.
 
 \textbf{Benchmarking data:} software ranks from previously gathered
 benchmarks are publically available \cite{Gardner:2022}, these include data from
-68 publications that rank the accuracy of different sets of 498
-distinct software tools.
+68 publications, \textcolor{rv}{128 benchmark rankings of} different sets of 498
+distinct software tools (See Supplementary Table 1).
+
+\textcolor{rv}{In brief, the criteria for inclusion of a
+  benchmark study are based on the definition of ``neutral comparison
+  studies'' \cite{boulesteix2013plea}: 1. The main focus of the
+  article is the comparison and not the introduction of a new
+  tool. 2. The authors should be neutral (i.e. not tool
+  developers). 3. The test data and evaluation criteria should be
+  sensible.}
+
 
 %The methodology section should provide more detail about how the
 %software tools were selected and mapped to academic fields. It’s
@@ -432,6 +479,13 @@ Associate Professor Anthony Gitter (Department of Biostatistics and
 Medical Informatics, University of Wisconsin-Madison) for pointing out
 the over-representation of Harvard Medical School affiliations in the
 Medical Informatics catagory.
+
+\textcolor{rv}{The author profusely thanks the recent anonymous grant
+  reviewers who kindly noted the author’s
+  bioinformatics/machine-learning skills as 'weak' or 'lacking
+  expertise'. We assume they were swayed more by our affiliation than
+  by minor details like... a publication record. This charming
+  oversight, of course, inspired the paper you're reading now.}
 
 
 % Bibliography

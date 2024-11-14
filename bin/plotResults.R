@@ -86,3 +86,21 @@ UpSet(sm,
       )
 dev.off()
 
+######################################################################
+#Evaluate confounding by age:
+#Run: ../bin/extractAgeData.pl
+
+yearPublished <- read.table("yearPublishedByField.tsv", header=T, sep="\t")
+medYear<-median(yearPublished$yearPublished)
+pdf(file=    "../docs/figures/toolAgesByField.pdf", width = 24,  height = 15)
+par(mfrow = c(1,2), las=2, mar=c(5, 10, 4, 2) + 0.1, cex=2)
+bymedian <- with(yearPublished, reorder(generalField, yearPublished, median))
+#boxplot( yearPublished ~ generalField,  data = yearPublished, col = "blue",ylab='',horizontal=TRUE)
+boxplot( yearPublished ~ bymedian,  data = yearPublished, col = "blue",ylab='',horizontal=TRUE)
+lines(c(medYear, medYear), c(0,5), lwd=2, lty=2, col='red')
+bymedian <- with(yearPublished, reorder(specificField, yearPublished, median))
+boxplot( yearPublished ~ bymedian, data = yearPublished, col = "blue",ylab='',horizontal=TRUE)
+lines(c(medYear, medYear), c(0,15), lwd=2, lty=2, col='red')
+dev.off()
+
+
