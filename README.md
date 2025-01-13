@@ -126,12 +126,14 @@ R CMD BATCH ../bin/plotResults.R
 
  - [./docs/references.bib](./docs/references.bib) - references in a format used by bibtex/LaTeX. 
 
- - [./docs/figures/upset-plots.pdf](./docs/figures/upset-plots.pdf) - Figure 1. A combination of upset plots, with figure labels. 
+ - [./docs/figures/figure1.pdf](./docs/figures/figure1-revision2.pdf) - Figure 1. A combination of upset plots, with figure labels.
 
- - [./docs/figures/upsetPlotSpecificFiled.pdf](./docs/figures/upsetPlotSpecificFiled.pdf) -  Figure 1A.
+ - [./docs/figures/figure1.svg](./docs/figures/figure1-revision2.svg) - Figure 1. Same as above, in SVG format.
 
- - [./docs/figures/upsetPlotGeneralFiled.pdf](./docs/figures/upsetPlotGeneralFiled.pdf) - Figure 1B.
+ - [./docs/figures/upsetPlotSpecificField-large-fonts.pdf](./docs/figures/upsetPlotSpecificField-large-fonts.pdf) - Figure 1A, unedited multi-page PDF, with the complete and truncated image. 
 
- - [./docs/figures/forest-z-Plot.pdf](./docs/figures/forest-z-Plot.pdf) - Figure 2. Figure labels added.
+ - [./docs/figures/upsetPlotGeneralField-large-fonts.pdf](./docs/figures/upsetPlotGeneralField-large-fonts.pdf)  - Figure 1B, unedited multi-page PDF, with the complete and truncated image. 
 
- - [./docs/figures/forestPlot.pdf](./docs/forestPlot.pdf) - Figure 2A&B. Unedited. 
+ - [./docs/figures/forest-z-Plot.pdf](./docs/figures/figure2.pdf) - Figure 2. 
+
+ - [./docs/figures/forestPlot.pdf](./docs/forestPlot.pdf) - Figures 2A&B. Unedited. 
