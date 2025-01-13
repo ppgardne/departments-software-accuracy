@@ -1,0 +1,19 @@
+cg	Department of Biomedical Informatics, University of Pittsburgh
+mafft	Digital Medicine Initiative, Kyushu University
+mafftfftns	Digital Medicine Initiative, Kyushu University
+mafftfftns2	Digital Medicine Initiative, Kyushu University
+mafftginsi	Digital Medicine Initiative, Kyushu University
+mafftlinsi	Digital Medicine Initiative, Kyushu University
+meerkat	Center for Biomedical Informatics, Harvard Medical School
+prism	Center for Biomedical Informatics, School of Computer Science and Technology, Harbin Institute of Technology
+redbean	Department of Biomedical Informatics, Harvard Medical School
+rswseg	Center for Biomedical Informatics, Harvard Medical School
+scde	Center for Biomedical Informatics, Harvard Medical School
+scorpius	Data Mining and Modelling for Biomedicine group; VIB Inflammation Research Center
+sincera	       Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center
+slice	       Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center
+softsearch	Division of Biomedical Statistics and Informatics, Department of Health Sciences Research, Mayo Clinic, Rochester
+softsv	       Institute of Medical Informatics, University of Münster, Germany
+
+#cat ../data/medical-informatics.txt | cut -f 2 | tr -d "\t" | tr -d " " | sort | uniq -c | sort -nr
+#Merge "Center for Biomedical Informatics" and "Department of Biomedical Informatics"

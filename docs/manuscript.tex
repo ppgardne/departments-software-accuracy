@@ -25,8 +25,9 @@
 \definecolor{color3}{RGB}{5,5,5} % Color of the boxes behind the abstract and headings
 
 
-%\definecolor{rv}{RGB}{0,0,200} %colour highlighting revisions
 \definecolor{rv}{RGB}{0,0,0} %colour masking revisions
+%\definecolor{rv2}{RGB}{0,0,200} %colour highlighting revisions
+\definecolor{rv2}{RGB}{0,0,0} %colour highlighting revisions
 
 
 \JournalInfo{.} % Journal information ``Journal, Vol. XXI, No. 1, 1-5, 2015''
@@ -158,16 +159,18 @@ based on the developers' academic affiliations.
 
 \begin{figure*}[t!]
   \centering
-  \includegraphics[width=0.75\textwidth]{figure1.pdf}
-  \caption{ \textcolor{rv}{ The figure displays the number and
-      intersection of bioinformatic tools classified by general fields (Panel \textbf{A})
-      and specific fields (Panel \textbf{B}), as listed by the corresponding
-      authors who published software included in benchmark
-      studies. Panel \textbf{C} presents the classification of general and
-      specific fields of study used by the ``National Science Foundation''
-      relevant to this study. On the right, it shows the additional
-      expertise categories that we introduced for this analysis.
- }  }
+  \includegraphics[width=0.95\textwidth]{figure1-revision2.pdf}
+  \caption{ \textcolor{rv2}{ The UpSet figures display the number and
+      intersection of bioinformatic tools classified by general fields
+      (Panel \textbf{A}) and specific fields (Panel \textbf{B}). Tools
+      are mapped to the affiliations of corresponding authors who
+      published each tool included in selected benchmark studies. Only
+      the top 11 sets are shown for general and specific fields.
+      Panel \textbf{C} presents the classification of general and
+      specific fields of study used by the ``National Science
+      Foundation'' relevant to this study. On the right, it shows the
+      additional expertise categories that we introduced for this
+      analysis.  }  }
 \label{fig:fig1}
 \end{figure*}
 
@@ -230,7 +233,7 @@ overall accuracy.
 ``Medical Informatics'', a branch of ``Technologies'', outperformed
 other fields, with a mean win proportion of 0.70 (95\% CI:
 $0.53-0.85$) and a Z-score of $-1.88$. However, P = 0.29 after
-multiple testing correction). Notably, this category includes five
+multiple testing correction. Notably, this category includes five
 different parameter options for the MAFFT sequence alignment tool
 \cite{katoh2008recent}, and a further four separate corresponding
 authors that list either the Department or Center of Biomedical
@@ -279,7 +282,7 @@ associated with software accuracy.
 
 While other aspects of bioinformatic tools, such as speed and
 usability, are important, we emphasize that accuracy should remain the
-top priority, as poor predictions can have long-term impacts on
+top priority, as poor predictions have long-term impacts on
 research \cite{weber2019essential}.
 
 Medical Informatics was the top-performing field in developing
@@ -307,6 +310,12 @@ corresponding tools.
 %Also, our data set has not been updated with more recent
 %tools.
 
+\textcolor{rv2}{Potential confounding variables may exist for this
+  analysis. However, a prior analysis of this data \cite{Gardner:2022} found no
+  correlation between software accuracy and factors such as citations for tools, authors or
+  journal, as well as tool speed, or age, allowing these variables
+  to be ruled out as confounders.}
+
 There may be little connection between a researcher’s training and
 their listed department, as illustrated by this author’s background
 which began in mathematics, before taking positions in departments of
@@ -318,15 +327,15 @@ may not be the primary tool developer, but rather oversees the
 project. There is likely to be a strong overlap between the departments of the first
 and last authors, but this was not explored in the current study.
 
-\textbf{Final words:} This study does not find strong evidence linking
-academic department affiliation with bioinformatic software
-accuracy ($p>0.05$ in all instances). Future research should investigate other factors, such as
-interdisciplinary collaborations and developer training, to understand
-what drives high-quality tool development. Addressing potential biases
-against interdisciplinary work \cite{bromham2016interdisciplinary} and ensuring long-term support for
-essential software infrastructure will also be critical for advancing the
-field \cite{siepel2019challenges}.
-
+\textbf{Final words:} This study does not find evidence linking
+academic department affiliation with bioinformatic software accuracy
+($p>0.05$ in all instances). Future research should investigate other
+factors, such as interdisciplinary collaborations and developer
+training, to understand what drives high-quality tool
+development. Addressing potential biases against interdisciplinary
+work \cite{bromham2016interdisciplinary} and ensuring long-term
+support for essential software infrastructure will also be critical
+for advancing the field \cite{siepel2019challenges}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -343,7 +352,7 @@ prior to any unpublished data collection \cite{gardner2024}.
 \textbf{Benchmarking data:} software ranks from previously gathered
 benchmarks are publically available \cite{Gardner:2022}, these include data from
 68 publications, \textcolor{rv}{128 benchmark rankings of} different sets of 498
-distinct software tools (See Supplementary Table 1).
+distinct software tools (summarised in Supplementary Table 1).
 
 \textcolor{rv}{In brief, the criteria for inclusion of a
   benchmark study are based on the definition of ``neutral comparison
@@ -480,12 +489,8 @@ Medical Informatics, University of Wisconsin-Madison) for pointing out
 the over-representation of Harvard Medical School affiliations in the
 Medical Informatics catagory.
 
-\textcolor{rv}{The author profusely thanks the recent anonymous grant
-  reviewers who kindly noted the author’s
-  bioinformatics/machine-learning skills as 'weak' or 'lacking
-  expertise'. We assume they were swayed more by our affiliation than
-  by minor details like... a publication record. This charming
-  oversight, of course, inspired the paper you're reading now.}
+\textcolor{rv2}{The author thanks the anonymous grant
+  reviewers who inspired this paper.}
 
 
 % Bibliography

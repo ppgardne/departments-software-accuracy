@@ -1,0 +1,994 @@
+Fields (specific code)
+NA
+"14.0901	Computer engineering, general"
+NA
+26.1103        Bioinformatics; 27.0501        Statistics, general
+"11.0701	Computer science"
+NA
+"26.0801	Genetics, general"
+"26.0801        Genetics, general; 27.0101	Mathematics, general"
+27.0501 Statistics, general
+"11.0701	Computer science"
+"14.0901        Computer engineering, general; 26.1201	Biotechnology"
+"26.0801	Genetics, general"
+"26.0801	Genetics, general"
+26.0801        Genetics, general; 11.0104        Informatics
+"11.0701	Computer science"
+26.1103        Bioinformatics
+26.1103        Bioinformatics
+26.1103        Bioinformatics
+26.1103        Bioinformatics
+26.1103        Bioinformatics
+NA
+"14.0901	Computer engineering, general"
+"11.0104	Informatics"
+"26.0502	Microbiology, general"
+"14.0901	Computer engineering, general"
+26.1103        Bioinformatics
+26.1103        Bioinformatics
+26.1103        Bioinformatics
+"11.0701	Computer science"
+"26.0801	Genetics, general"
+26.1103        Bioinformatics
+26.1103        Bioinformatics
+"27.0101	Mathematics, general"
+"26.1102	Biostatistics"
+"26.1102	Biostatistics"
+"26.0101	Biology/biological sciences, general"
+"27.0501	Statistics, general"
+"27.0501	Statistics, general"
+"27.0501	Statistics, general"
+"27.0501	Statistics, general"
+"27.0501	Statistics, general"
+"26.0204	Molecular biology"
+NA
+NA
+"26.0101	Biology/biological sciences, general"
+NA
+"14.0301	Agricultural/biological engineering and bioengineering"
+26.1103        Bioinformatics
+"26.1310	Ecology and evolutionary biology"
+26.1103        Bioinformatics
+NA
+26.1103        Bioinformatics
+"40.0501	Chemistry, general"
+"26.1001	Pharmacology"
+NA
+"14.0301	Agricultural/biological engineering and bioengineering"
+"51.0507	Oral/maxillofacial surgery"
+"26.1201	Biotechnology"
+"26.1201	Biotechnology"
+"26.1201	Biotechnology"
+51.2706        Medical informatics
+"26.0910	Pathology/experimental pathology"
+"26.0801	Genetics, general"
+"38.0101	Philosophy"
+"26.0204	Molecular biology"
+"11.0701	Computer science"
+"11.0701	Computer science"
+NA
+11.0701        Computer science; 26.0801        Genetics, general
+"26.1401	Molecular medicine"
+"26.1401	Molecular medicine"
+"26.0204	Molecular biology"
+26.1103        Bioinformatics
+"26.0910	Pathology/experimental pathology"
+26.1103        Bioinformatics
+"27.0501	Statistics, general"
+"26.0202        Biochemistry; 26.0101	Biology/biological sciences, general"
+"27.0101	Mathematics, general"
+"26.1102	Biostatistics"
+NA
+NA
+26.0801        Genetics, general
+11.0104 Informatics
+"26.1103        Bioinformatics; 14.1901	Mechanical engineering"
+"11.0701	Computer science"
+26.1103        Bioinformatics
+26.1103        Bioinformatics; 26.0801        Genetics, general
+"11.0701	Computer science"
+26.0801        Genetics, general; 27.0501        Statistics, general
+"11.0701	Computer science"
+11.0104 Informatics
+26.1103        Bioinformatics
+"26.0801	Genetics, general"
+"26.0801	Genetics, general"
+26.1103        Bioinformatics
+"14.1001	Electrical and electronics engineering"
+"26.1102	Biostatistics"
+26.0801        Genetics, general; 26.0202        Biochemistry
+"26.0101	Biology/biological sciences, general"
+11.0104 Informatics
+"26.0911	Oncology and cancer biology"
+NA
+26.0204        Molecular biology
+NA
+"26.0910	Pathology/experimental pathology"
+26.0204        Molecular biology; 26.0801        Genetics, general
+26.0204        Molecular biology; 26.0801        Genetics, general
+26.1103        Bioinformatics
+"26.0204	Molecular biology"
+"26.1199	Biomathematics and bioinformatics, other"
+"26.1199	Biomathematics and bioinformatics, other"
+"26.0801	Genetics, general"
+"26.0801	Genetics, general"
+NA
+11.0701        Computer science; 26.1401        Molecular medicine
+"11.0701        Computer science; 26.0801	Genetics, general"
+"11.0701        Computer science; 26.0801	Genetics, general"
+"14.0702	Chemical and biomolecular engineering"
+NA
+26.1103        Bioinformatics
+26.1103        Bioinformatics
+NA
+26.1103        Bioinformatics
+11.0701        Computer science; 27.0501 Statistics, general
+"11.0701        Computer science; 27.0306	Mathematical biology"
+"26.0801	Genetics, general"
+"26.0801	Genetics, general"
+26.1103        Bioinformatics
+"11.0701	Computer science"
+26.1103        Bioinformatics
+26.1103        Bioinformatics
+26.1103        Bioinformatics
+"26.0801	Genetics, general"
+"26.0910	Pathology/experimental pathology"
+26.1103        Bioinformatics
+26.0801        Genetics, general
+"26.0801	Genetics, general"
+"26.0507	Immunology"
+"26.1309	Epidemiology"
+26.1102        Biostatistics; 26.0801        Genetics, general
+"26.0801	Genetics, general"
+"14.0101	Engineering, general"
+26.0202        Biochemistry
+26.0801        Genetics, general; 26.1102        Biostatistics
+26.1103        Bioinformatics
+"26.0203        Biophysics; 14.0501	Bioengineering and biomedical engineering"
+"26.0507	Immunology"
+"26.0801	Genetics, general"
+11.0701        Computer science; 26.1103        Bioinformatics
+NA
+"38.0101	Philosophy"
+"26.0801	Genetics, general"
+"11.0701	Computer science"
+"26.0801	Genetics, general"
+"26.0801	Genetics, general"
+26.1103        Bioinformatics
+NA
+NA
+"14.0501	Bioengineering and biomedical engineering"
+11.0104 Informatics
+NA
+26.1103        Bioinformatics; 11.0701        Computer science
+"26.0801	Genetics, general"
+"11.0701	Computer science"
+"26.0801	Genetics, general"
+26.1401        Molecular medicine
+"11.0701	Computer science"
+"26.0801	Genetics, general"
+26.0801        Genetics, general
+"11.0701	Computer science"
+"26.0101	Biology/biological sciences, general"
+26.1103        Bioinformatics
+11.0104 Informatics
+NA
+26.1103        Bioinformatics; 26.1401        Molecular medicine
+26.1103        Bioinformatics
+26.1103        Bioinformatics; 26.0801        Genetics, general
+"40.0801	Physics, general"
+"26.0101	Biology/biological sciences, general"
+26.1103        Bioinformatics
+"14.0903        Computer software engineering; 26.0301	Botany/plant biology"
+NA
+11.0701        Computer science; 26.0801        Genetics, general
+NA
+26.0202        Biochemistry
+26.1103        Bioinformatics; 26.1102        Biostatistics
+11.0701        Computer science; 27.0101        Mathematics, general
+"26.0801	Genetics, general"
+"11.0701	Computer science"
+"26.0801	Genetics, general"
+26.1401        Molecular medicine
+26.1103        Bioinformatics
+"11.0701	Computer science"
+"11.0701	Computer science"
+"11.0701	Computer science"
+"26.0101	Biology/biological sciences, general"
+26.1103        Bioinformatics
+"26.0801	Genetics, general"
+"26.0204	Molecular biology"
+"26.0301	Botany/plant biology"
+26.1103        Bioinformatics
+11.0103        Information technology; 26.1103        Bioinformatics
+"26.0801	Genetics, general"
+"26.0801	Genetics, general"
+"26.0801	Genetics, general"
+26.0801        Genetics, general
+26.0801        Genetics, general; 26.1103        Bioinformatics
+"11.0701	Computer science"
+"11.0401	Information science/studies"
+"09.0101	Communication studies/speech communication and rhetoric"
+11.0701        Computer science; 26.0801        Genetics, general
+"51.2201	Public health, general"
+11.0701        Computer science; 26.0202        Biochemistry
+11.0701        Computer science; 26.0801        Genetics, general
+11.0701        Computer science; 26.1103        Bioinformatics
+NA
+26.1103        Bioinformatics
+"26.0202	Biochemistry"
+"27.0303	Computational mathematics"
+NA
+NA
+11.0701        Computer science; 26.0801        Genetics, general
+NA
+26.1401        Molecular medicine
+"11.0701	Computer science"
+"26.0911	Oncology and cancer biology"
+"26.0801	Genetics, general"
+"11.0701	Computer science"
+"27.0501	Statistics, general"
+"26.0204	Molecular biology"
+"26.0801	Genetics, general"
+"51.2706	Medical informatics"
+"51.2706	Medical informatics"
+"51.2706	Medical informatics"
+"51.2706	Medical informatics"
+"51.2706	Medical informatics"
+NA
+"11.0701	Computer science"
+NA
+"26.0502	Microbiology, general"
+"26.1102	Biostatistics"
+"11.0701	Computer science"
+"26.1102	Biostatistics"
+51.2706        Medical informatics
+26.1103        Bioinformatics
+26.1103        Bioinformatics
+11.0103        Information technology
+"26.1102	Biostatistics"
+11.0701        Computer science; 26.1103        Bioinformatics
+NA
+"26.0901	Physiology, general"
+"26.1103        Bioinformatics; 26.0910	Pathology/experimental pathology"
+26.0801        Genetics, general; 11.0701        Computer science
+"27.0101	Mathematics, general"
+"11.0701	Computer science"
+26.0502        Microbiology, general
+"26.0206	Molecular biophysics"
+"26.1401	Molecular medicine"
+26.1001        Pharmacology
+"26.0801	Genetics, general"
+26.1201        Biotechnology; 26.0502        Microbiology, general
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+"26.1001	Pharmacology"
+"26.0910	Pathology/experimental pathology; 26.1103        Bioinformatics"
+26.1103        Bioinformatics
+"26.0202	Biochemistry"
+"26.0801	Genetics, general"
+"26.0801	Genetics, general"
+"26.0801	Genetics, general"
+"26.0101	Biology/biological sciences, general"
+"26.0502	Microbiology, general"
+"26.0204	Molecular biology"
+"26.0507	Immunology"
+"01.0000	Agriculture, general"
+NA
+NA
+"26.0801	Genetics, general"
+"30.3201	Marine sciences"
+"30.3201	Marine sciences"
+11.0701        Computer science; 26.0801        Genetics, general
+"26.0911	Oncology and cancer biology"
+NA
+"26.0801	Genetics, general"
+NA
+"26.0502	Microbiology, general"
+"26.0502	Microbiology, general"
+11.0104 Informatics
+NA
+NA
+"14.0901	Computer engineering, general"
+"26.1201	Biotechnology"
+NA
+26.0202        Biochemistry; 26.1103        Bioinformatics
+NA
+26.1103        Bioinformatics
+"11.0701	Computer science"
+NA
+"26.0801	Genetics, general"
+26.1103        Bioinformatics
+27.0101        Mathematics, general; 26.0204        Molecular biology
+"27.0101	Mathematics, general"
+NA
+26.1103        Bioinformatics
+26.0801        Genetics, general; 27.0501        Statistics, general
+26.0801        Genetics, general; 27.0501        Statistics, general
+NA
+26.1103        Bioinformatics; 27.0101        Mathematics, general
+26.1103        Bioinformatics; 27.0101        Mathematics, general
+"11.0701	Computer science"
+26.0204        Molecular biology
+"26.1201	Biotechnology"
+"26.0801	Genetics, general"
+NA
+"26.1102	Biostatistics"
+"26.0202	Biochemistry"
+"26.0801	Genetics, general"
+26.1103        Bioinformatics
+26.0801        Genetics, general; 26.1103        Bioinformatics
+NA
+11.0701        Computer science
+26.1103        Bioinformatics
+"26.0801	Genetics, general"
+26.1103        Bioinformatics
+"26.0101	Biology/biological sciences, general"
+26.1103        Bioinformatics
+NA
+26.1103        Bioinformatics; 26.0910        Pathology/experimental pathology
+26.0204        Molecular biology; 11.0701        Computer science
+"26.0801	Genetics, general"
+"26.0202	Biochemistry"
+"26.0101	Biology/biological sciences, general"
+NA
+NA
+"26.1102	Biostatistics"
+26.1103        Bioinformatics; 26.0910        Pathology/experimental pathology
+NA
+26.1103        Bioinformatics
+"26.0202	Biochemistry"
+11.0701        Computer science; 26.1103        Bioinformatics
+51.2706        Medical informatics; 11.0701        Computer science
+11.0701        Computer science
+"11.0701	Computer science"
+"11.0701	Computer science"
+"26.0801	Genetics, general"
+"26.0202	Biochemistry"
+26.0901        Physiology, general; 26.1103        Bioinformatics
+26.0801        Genetics, general; 27.0501        Statistics, general
+NA
+"11.0701	Computer science"
+"26.0202	Biochemistry"
+"26.0202	Biochemistry"
+"11.0701	Computer science"
+26.1103        Bioinformatics; 11.0701        Computer science
+26.0801        Genetics, general
+"11.0701	Computer science"
+"14.1001	Electrical and electronics engineering"
+"26.0801        Genetics, general; 01.0901	Animal sciences, general"
+26.1103        Bioinformatics
+11.0701        Computer science
+11.0701        Computer science; 11.0104 Informatics
+11.0701        Computer science; 11.0104 Informatics
+11.0701        Computer science; 26.0204        Molecular biology
+NA
+26.1103        Bioinformatics; 26.0801        Genetics, general
+26.0801        Genetics, general; 26.1309        Epidemiology
+26.1103        Bioinformatics
+11.0104 Informatics
+11.0701        Computer science; 51.2706        Medical informatics
+"26.1401	Molecular medicine"
+26.0801        Genetics, general; 26.1103        Bioinformatics
+"26.0801	Genetics, general"
+"27.0101	Mathematics, general"
+"11.0701	Computer science"
+14.0901        Computer engineering, general; 26.1103        Bioinformatics
+26.1103        Bioinformatics
+"26.0202	Biochemistry"
+"26.0202	Biochemistry"
+26.1103        Bioinformatics
+"26.0202	Biochemistry"
+"26.0202	Biochemistry"
+"26.0801	Genetics, general"
+"26.1102	Biostatistics"
+26.0202        Biochemistry
+51.2706        Medical informatics; 26.1401        Molecular medicine
+26.1103        Bioinformatics; 26.0801        Genetics, general
+NA
+"26.0101	Biology/biological sciences, general"
+11.0701        Computer science; 27.0101        Mathematics, general
+26.1102        Biostatistics; 27.0501        Statistics, general
+51.2706        Medical informatics
+26.1103        Bioinformatics
+"26.0801	Genetics, general"
+"27.0101	Mathematics, general"
+26.1103        Bioinformatics
+51.2706        Medical informatics
+26.1103        Bioinformatics
+"14.1001	Electrical and electronics engineering"
+NA
+"26.1102	Biostatistics"
+"26.0911	Oncology and cancer biology"
+"26.0911	Oncology and cancer biology"
+"26.0507	Immunology"
+"26.0407	Cell biology and anatomy"
+"26.0102	Biomedical sciences, general"
+NA
+14.0901        Computer engineering, general; 27.0501        Statistics, general
+"26.0801	Genetics, general"
+NA
+"26.0801	Genetics, general"
+"14.1001	Electrical and electronics engineering"
+"26.0801	Genetics, general"
+"26.0801	Genetics, general"
+11.0701        Computer science; 26.0102        Biomedical sciences, general
+"11.0701	Computer science"
+NA
+26.1103        Bioinformatics
+51.2706        Medical informatics
+14.0501        Bioengineering and biomedical engineering; 26.1103        Bioinformatics
+"26.1102	Biostatistics"
+NA
+51.2706        Medical informatics
+11.0701        Computer science; 26.1103        Bioinformatics
+26.1102        Biostatistics; 27.0501        Statistics, general
+NA
+"26.1401	Molecular medicine"
+27.0306        Mathematical biology; 11.0701        Computer science
+14.0901        Computer engineering, general; 11.0701        Computer science
+11.0701        Computer science; 26.0801        Genetics, general
+26.0801        Genetics, general; 26.0202        Biochemistry
+26.0801        Genetics, general; 26.0202        Biochemistry
+26.0801        Genetics, general; 26.0202        Biochemistry
+26.0801        Genetics, general; 26.0202        Biochemistry
+"26.0801	Genetics, general"
+11.0701        Computer science
+26.0801        Genetics, general; 26.0202        Biochemistry
+14.0501        Bioengineering and biomedical engineering; 11.0701        Computer science
+26.1103        Bioinformatics; 26.0102 Biomedical sciences, general
+51.2706        Medical informatics
+51.2706        Medical informatics
+14.0501        Bioengineering and biomedical engineering
+27.0306        Mathematical biology; 11.0701        Computer science
+"26.1201	Biotechnology"
+27.0306        Mathematical biology; 11.0701        Computer science
+"26.0801	Genetics, general"
+"26.0801	Genetics, general"
+26.1103        Bioinformatics; 26.0911        Oncology and cancer biology
+27.0306        Mathematical biology
+"11.0401	Information science/studies"
+NA
+"26.0202	Biochemistry"
+11.0104 Informatics
+"26.0801	Genetics, general"
+27.0306        Mathematical biology
+"26.1102	Biostatistics"
+"26.0202	Biochemistry"
+26.1103        Bioinformatics
+"11.0701	Computer science"
+"11.0701	Computer science"
+NA
+"11.0701	Computer science"
+"26.0801	Genetics, general"
+NA
+NA
+"26.0801	Genetics, general"
+26.0407        Cell biology and anatomy; 26.0202        Biochemistry
+26.1103        Bioinformatics; 11.0701        Computer science
+NA
+26.0911        Oncology and cancer biology; 26.1103        Bioinformatics
+NA
+26.1103        Bioinformatics; 26.0801        Genetics, general
+"26.1102	Biostatistics"
+"11.0701	Computer science"
+26.1103        Bioinformatics
+14.0901        Computer engineering, general; 11.0701        Computer science
+"11.0701	Computer science"
+11.0701        Computer science
+26.1103        Bioinformatics
+26.0102 Biomedical sciences, general; 26.0801        Genetics, general
+11.0701        Computer science; 26.1102        Biostatistics
+"26.0202	Biochemistry"
+NA
+26.1103        Bioinformatics; 11.0701        Computer science
+26.1103        Bioinformatics; 11.0701        Computer science
+"11.0701	Computer science"
+26.0801        Genetics, general
+26.0101        Biology/biological sciences, general
+NA
+NA
+NA
+"26.1102	Biostatistics"
+NA
+NA
+26.1103        Bioinformatics
+NA
+"26.0204	Molecular biology"
+NA
+11.0701        Computer science; 26.0801        Genetics, general
+"26.0801	Genetics, general"
+"26.0801	Genetics, general"
+26.1103        Bioinformatics
+26.0101        Biology/biological sciences, general; 27.0306        Mathematical biology
+"26.1401	Molecular medicine"
+"26.0801	Genetics, general"
+26.0101        Biology/biological sciences, general; 27.0306        Mathematical biology
+"26.0701	Zoology/animal biology"
+NA
+26.1103        Bioinformatics
+"26.0911	Oncology and cancer biology"
+"26.0101	Biology/biological sciences, general"
+"26.0204	Molecular biology"
+"26.0204	Molecular biology"
+NA
+26.1103        Bioinformatics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

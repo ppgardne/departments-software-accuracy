@@ -66,18 +66,18 @@ library(ComplexHeatmap)
 generalFields  <-read.table("toolsVsGeneralField.tsv",  header=T, sep="\t")
 gm <- make_comb_mat(generalFields, top_n_sets = 5)#, min_set_size = 10)
 gm <- gm[comb_size(gm) >= 3]
-pdf(file=    "../docs/figures/upsetPlotGeneralFiled.pdf", width = 10,  height = 3)
+pdf(file=    "../docs/figures/upsetPlotGeneralFiled.pdf", width = 12,  height = 3.75)
 UpSet(gm,
 	comb_order = order(-1*comb_size(gm)),
 	top_annotation = upset_top_annotation(gm, add_numbers = TRUE),
     	right_annotation = upset_right_annotation(gm, add_numbers = TRUE),
-	comb_col=colours[2]
+	comb_col=colours[2]#, text.scale=1.5
       )
 dev.off()
 specificFields <-read.table("toolsVsSpecificField.tsv", header=T, sep="\t")
 sm <- make_comb_mat(specificFields, top_n_sets = 15)#, min_set_size = 10)
 sm <- sm[comb_size(sm) >= 10]
-pdf(file=    "../docs/figures/upsetPlotSpecificFiled.pdf", width = 10,  height = 5)
+pdf(file=    "../docs/figures/upsetPlotSpecificFiled.pdf", width = 12,  height = 6.25)
 UpSet(sm,
 	comb_order = order(-1*comb_size(sm)),
 	top_annotation = upset_top_annotation(sm, add_numbers = TRUE),
@@ -85,6 +85,25 @@ UpSet(sm,
 	comb_col=colours[3]
       )
 dev.off()
+
+#REMAKE UPSET PLOTS WITH LARGER FONTS:
+library(UpSetR)
+generalFields  <-read.table("toolsVsGeneralField.tsv",  header=T, sep="\t")
+sets <- colnames(generalFields)[2:length(colnames(generalFields))]
+pdf(file=    "../docs/figures/upsetPlotGeneralField-large-fonts.pdf", width = 10,  height = 3.5)
+upset(generalFields,  sets = sets, mb.ratio = c(0.35, 0.65), order.by = "freq", decreasing = T, mainbar.y.label = "Affiliations", text.scale=1.95, nintersects = 11)
+upset(generalFields,  sets = sets, mb.ratio = c(0.35, 0.65), order.by = "freq", decreasing = T, mainbar.y.label = "Affiliations", text.scale=1.95)
+dev.off()
+
+specificFields <-read.table("toolsVsSpecificField.tsv", header=T, sep="\t")
+sets <- colnames(specificFields)[2:length(colnames(specificFields))]
+pdf(file=    "../docs/figures/upsetPlotSpecificField-large-fonts.pdf", width = 10,  height = 5)
+upset(specificFields, sets = sets, mb.ratio = c(0.35, 0.65), order.by = "freq", decreasing = T, mainbar.y.label = "Affiliations", text.scale=1.95, nintersects = 11)
+upset(specificFields, sets = sets, mb.ratio = c(0.35, 0.65), order.by = "freq", decreasing = T, mainbar.y.label = "Affiliations", text.scale=1.95)
+dev.off()
+
+
+
 
 ######################################################################
 #Evaluate confounding by age:

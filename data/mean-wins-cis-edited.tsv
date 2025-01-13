@@ -1,0 +1,22 @@
+fieldLayer	field	meanWins	lowCI	highCI	count
+expertiseArea	Development	0.52	0.39	0.64	89
+expertiseArea	Domain	0.49	0.42	0.57	174
+expertiseArea	Interdisciplinary	0.46	0.38	0.54	179
+fieldGeneral	Technologies	0.70	0.52	0.87	16
+fieldGeneral	Math&Stats	0.53	0.34	0.76	38
+fieldGeneral	Computer sciences	0.49	0.39	0.59	95
+fieldGeneral	Biological sciences	0.47	0.41	0.52	313
+fieldGeneral	Health sciences	0.36	0.07	0.73	10
+fieldGeneral	Engineering	0.35	0.17	0.61	23
+fieldSpecific	Medical informatics	0.70	0.52	0.87	16
+fieldSpecific	Molecular medicine	0.59	0.27	0.85	12
+fieldSpecific	Mathematics	0.58	0.22	0.88	12
+fieldSpecific	Biostatistics	0.57	0.32	0.78	21
+fieldSpecific	Biology	0.53	0.39	0.73	15
+fieldSpecific	Computer science	0.50	0.39	0.60	85
+fieldSpecific	Genetics	0.48	0.40	0.56	101
+fieldSpecific	Informatics	0.47	0.25	0.73	12
+fieldSpecific	Statistics	0.45	0.16	0.86	17
+fieldSpecific	Molecular biology	0.44	0.28	0.62	17
+fieldSpecific	Biochemistry	0.43	0.23	0.61	28
+fieldSpecific	Bioinformatics	0.43	0.33	0.53	98
